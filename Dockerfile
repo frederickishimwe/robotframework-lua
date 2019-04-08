@@ -1,6 +1,6 @@
 FROM openresty/openresty
-
-LABEL Robot Framework UI
+MAINTAINER "Frederick Ishimwe" <frederick1989@gmail.com>
+LABEL Robot Framework
 
 #Variables
 ARG app_path=/robot
